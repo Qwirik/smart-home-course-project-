@@ -1,6 +1,9 @@
-#ifndef HASH_H_INCLUDED
-#define HASH_H_INCLUDED
+#ifndef HASH_H
+#define HASH_H
 
-void hash(char *str);
+#include <stdbool.h>
 
-#endif 
+void hash(const char *str);
+
+
+#endif // HASH_H
